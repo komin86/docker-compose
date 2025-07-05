@@ -1,10 +1,11 @@
 services:
 
   postgresql:
-    image: postgres:15
+    image: postgres:15 
+    # latest 최신버전
     container_name: postgresql
     
-    #restart: unless-stopped  
+    # restart: unless-stopped  
     # 재부팅 후 자동 재시작. 수동으로 멈추면 재시작 안 함
 
     environment:
